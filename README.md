@@ -3,6 +3,28 @@
 Generator for high quality SVG maps of the Battletech universe, as used on
 [sarna.net](https://www.sarna.net).
 
+## Jeremy's Commentary
+
+The stuff below is great, really, but here are some additional notes.
+
+- You should [clone this repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to get my changes
+
+- To add factions or years or update the data, you need to update the `data/Sarna Unified Cartography Kit (Official).xlsx` file
+
+- You can find the original [here](https://github.com/Eudicods/sarna-maps/tree/main/data)
+
+- I would upload this file to Google Docs, as it works better there (I would not use Sarna's official Google Doc of this, as it is incompatible with the code in this repo that I forked)
+
+- The `Systems` tab is where you can add new years/eras and change ownership
+
+- Any new factions should be added to the `Factions` tab - I would insert a row and copy all the formulas from the row above
+
+- You then download the updated sheet and replace the one in the `data` folder
+
+- The rest of the instructions below are good
+
+- The `config` folder has the example configuration files
+
 ## Content
 
 - [Setup](#setup)
