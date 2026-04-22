@@ -25,6 +25,8 @@ The stuff below is great, really, but here are some additional notes.
 
 - The `config` folder has the example configuration files
 
+- Note to me, my data is [here](https://docs.google.com/spreadsheets/d/1NZoV6T_bsVWRPXTot6BH9BptYirO72MISEL_dCSWCwU)
+
 ## Content
 
 - [Setup](#setup)
