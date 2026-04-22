@@ -41,7 +41,7 @@ export function renderSystemLabels(
       x: (label.anchor.x + label.padding.x + label.delta.x).toFixed(3),
       y: (-label.anchor.y - label.padding.y - label.delta.y).toFixed(3), // all y coordinates need to be inverted
       name: label.label || '',
-      css_class: label.affiliation === 'U' ? 'undiscovered' : label.affiliation === 'A' ? 'abandoned' : '',
+      css_class: label.affiliation === 'U' ? 'undiscovered' : label.affiliation === 'A' || label.affiliation === 'OW' ? 'abandoned' : '',
     });
     // label additions (capital, hidden, apocryphal)
     if (label.additions.length > 0) {

@@ -92,7 +92,7 @@ export function renderSystems(
   let factionCss = '';
   Object.keys(visibleFactions).forEach((factionKey) => {
     const faction = visibleFactions[factionKey];
-    if (factionKey === 'U' || factionKey === 'A') {
+    if (factionKey === 'U' || factionKey === 'A' || factionKey === 'OW') {
       return;
     } else if (factionKey === 'D') {
       // CSS for generic disputed systems is part of the default template
